@@ -4,22 +4,23 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
+// import Image from "next/image";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
-import iit from "../public/iitd.png"
-import csirnpl from "../public/npl.png"
-import cn from "../public/codingninja.png"
-import web1 from "../public/web1.png"
-import web2 from "../public/web2.png"
-import web3 from "../public/web3.png"
-import web4 from "../public/web4.png"
-import web5 from "../public/web5.png"
-import web6 from "../public/web6.png"
-import spp1 from "../public/spp1.png"
-import spp2 from "../public/spp2.png"
-import vm from "../public/vm.png"
-import vlbot from "../public/vlbot.png"
-import rb from "../public/reserachpaper_1.png"
+import iit from "../public/iitd.png";
+import csirnpl from "../public/npl.png";
+import cn from "../public/codingninja.png";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+import spp1 from "../public/spp1.png";
+import spp2 from "../public/spp2.png";
+import vm from "../public/vm.png";
+import vlbot from "../public/vlbot.png";
+import rb from "../public/reserachpaper_1.png";
 
 
 
@@ -74,7 +75,7 @@ export default function Home() {
             
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={deved} layout="fill" objectFit="cover" alt="artoon"/>
           </div>
         </section>
 
@@ -110,7 +111,7 @@ export default function Home() {
 
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 flex flex-col items-center justify-center">
-              <Image src={iit} width={100} height={100}/>
+              <Image src={iit} width={100} height={100} alt=" iitdl"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Machine Learning Internship - IIT Delhi</h3>
               <p className="py-2">
               Worked in the Indian Institute of Technology - Delhi as a Machine Learning Intern.
@@ -123,7 +124,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 flex flex-col items-center justify-center">
-              <Image src={csirnpl} width={100} height={100}/>
+              <Image src={csirnpl} width={100} height={100} alt=" csi"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Machine Learning Intern - CSIR NPL</h3>
               <p className="py-2">
               Worked in the Council of Scientific and Industrial Research - National Physical Laboratory and made end-to-end pipeline
@@ -136,7 +137,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 flex flex-col items-center justify-center">
-              <Image src={cn} width={100} height={100}/>
+              <Image src={cn} width={100} height={100} alt="cnnn"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Student Ambassador at Coding Ninja</h3>
               <p className="py-2">
               Building a network of students and teachers in college using offline and online strategies. ideating and executing engaging campaigns in college. working on marketing plans and carrying out campaigns to generate business for Coding Ninja.
@@ -167,8 +168,8 @@ export default function Home() {
                 >
                   Check Github Repository
                 </a>
-              <Image className="rounded-lg object-cover" src={spp1} width={1500} height={500}/>
-              <Image className="rounded-lg object-cover" src={spp2} width={1500} height={500}/>
+              <Image className="rounded-lg object-cover" src={spp1} width={1500} height={500} alt="solar ss 1"/>
+              <Image className="rounded-lg object-cover" src={spp2} width={1500} height={500} alt="solar ss 2"/>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 flex flex-col items-center justify-center">
@@ -184,7 +185,7 @@ export default function Home() {
                 >
                   Check Github Repository
                 </a>
-              <Image className="rounded-lg object-cover" src={vlbot} width={1500} height={500}/>
+              <Image className="rounded-lg object-cover" src={vlbot} width={1500} height={500} alt="chatbot"/>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 flex flex-col items-center justify-center">
@@ -198,7 +199,7 @@ export default function Home() {
                 >
                   Check Github Repository
                 </a>
-              <Image className="rounded-lg object-cover" src={vm} width={1500} height={500}/>
+              <Image className="rounded-lg object-cover" src={vm} width={1500} height={500} alt="mouse "/>
             </div>
             
           </div>
@@ -216,7 +217,7 @@ export default function Home() {
                 >
                   Check Paper
                 </a>
-              <Image className="rounded-lg object-cover" src={rb} width={1000} height={500}/>
+              <Image className="rounded-lg object-cover" src={rb} width={1000} height={500} alt=" rand"/>
               
             </div>
 
